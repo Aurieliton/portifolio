@@ -1,0 +1,132 @@
+body{
+    background-color:#2bc2c8 ;
+    font-size: "Lilita One";
+    color: white;
+}
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu-logo{
+    max-width: 50px;
+
+}
+
+.menu-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Press Start 2P', system-ui;
+    
+}
+
+.menu-lista-item{
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    
+}
+
+.menu-curriculo{
+    font-family: 'Press Start 2P', system-ui;
+    background-color: #514b12;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.banner{
+    background-image: url("https://64.media.tumblr.com/8b868373b16c535b6494ea3f6a323030/499da71b41a48e3b-d6/s1280x1920/f98819182c7c4429ce02b30aac82de593c71b47b.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-infos-image{
+
+    max-width: 400px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.banner-infos{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.733);
+    gap: 20px;
+    height: 55vh;
+    padding: 50px;
+    border-radius: 0px 0px 20px 20px; /*borda quand aplicamos as 4 dimensões, ele aplica no sentido horario*/
+}
+
+.banner-infos-cargo{
+
+    font-family: 'Press Start 2P',system-ui;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.banner-infos-nome{
+
+    font-family: 'Press Start 2P',system-ui;
+    font-size: 40px;
+    color: white;
+
+}
+
+.caixa-sobre{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 10px 10px solid;
+
+
+}
+
+.sobre{
+    max-width: 80vw;
+    margin: 60px auto;
+    border-top: 5px solid;
+    border-width: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-sobre{
+    font-family: 'Press Start 2P',system-ui;
+    color: white;
+}
+
+.paragrafo1{
+
+    font-family: "Lilita One";
+    color: white;
+}
+
+.paragrafo2{
+    font-family: "Lilita One";
+    color: white;
+}
+
+.img-sobre{
+    width: 350px;
+}
+
